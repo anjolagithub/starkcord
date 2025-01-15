@@ -6,10 +6,13 @@ edition = "2023_01"
 [dependencies]
 starknet = "2.3.0"
 
+[dev-dependencies]
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.35.1" }
+
 [[target.starknet-contract]]
 sierra = true
 casm = true
 
-[profile.release.target.starknet-contract]
-sierra = true
-casm = true
+[tool.snforge]
+# Test specific configurations
+exit_first = true
