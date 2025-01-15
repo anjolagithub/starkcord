@@ -9,3 +9,7 @@ starknet = "2.3.0"
 [[target.starknet-contract]]
 sierra = true
 casm = true
+
+[profile.release.target.starknet-contract]
+sierra = true
+casm = true
