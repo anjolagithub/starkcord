@@ -77,7 +77,7 @@
 ### **Steps**
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/starkcord.git
+   git clone https://github.com/anjolagithub/starkcord.git
    cd starkcord
    ```
 2. Install dependencies:  
